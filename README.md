@@ -291,6 +291,8 @@ If you are running ChromaDB on the same machine as SillyTavern, you will have to
 
 *This is kept up-to-date on a best-effort basis, but there is a risk of this documentation being out of date. When in doubt, refer to the actual source code.*
 
+Note: API access is from the Silly Tavern Client session, not from the Silly Tavern server instance. If connecting to Silly Tavern from a different machine than the one hosting it, then the address for the Extras API URL should be routable from the client machine, not from the server instances.
+
 ### Get list of enabled modules
 `GET /api/modules`
 #### **Input**
